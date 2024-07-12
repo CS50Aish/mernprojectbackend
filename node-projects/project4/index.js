@@ -57,3 +57,9 @@ test('ROOT LEVEL Test', async(t) => {
         assert.strictEqual(2, 2);
     });
 });
+
+// Let us skip the test cases
+test('skip option', {skip: true}, (t) => {
+    // This code is never executed
+});
+
