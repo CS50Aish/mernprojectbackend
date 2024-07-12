@@ -48,3 +48,12 @@ test('callback failing test', (t, done) => {
     });
 });
 
+// Let us create tests with two subsets
+test('ROOT LEVEL Test', async(t) => {
+    await t.test('SubTest 1', (t) => {
+        assert.strictEqual(1, 1);
+    });
+    await t.test('SubTest 2', (t) => {
+        assert.strictEqual(2, 2);
+    });
+});
