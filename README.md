@@ -576,3 +576,39 @@ ok 11 - Test A with all possible tests
 # skipped 2
 # todo 0
 # duration_ms 48.230638
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project5$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (project5) 
+version: (1.0.0) 
+description: Project on Backend
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /home/labuser/Desktop/mernprojectbackend/node-projects/project5/package.json:
+
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "Project on Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
