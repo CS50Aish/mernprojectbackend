@@ -612,3 +612,26 @@ About to write to /home/labuser/Desktop/mernprojectbackend/node-projects/project
 
 
 Is this OK? (yes) 
+
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project5$ node eventListenerwithparams.js 
+John Jack
+EventEmitter {
+  _events: [Object: null prototype] { greeting: [Function (anonymous)] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  [Symbol(kCapture)]: false
+}
+true
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project5$ node asynchronouseventlistener.js 
+Jack John
+EventEmitter {
+  _events: [Object: null prototype] {
+    greeting: [Function (anonymous)],
+    greet: [Function (anonymous)]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  [Symbol(kCapture)]: false
+}
+true
+>>> Hello Sam
