@@ -63,3 +63,7 @@ test('skip option', {skip: true}, (t) => {
     // This code is never executed
 });
 
+// Here the skip option is used and message is provided
+test('skip option with message', {skip: 'this is skipped'}, (t) => {
+    // This code is never executed
+})
