@@ -646,3 +646,94 @@ Error: whoop!!
     at Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
+
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project8$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (project8) 
+version: (1.0.0) 
+description: Project on Developing Backend API
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: Aishwarya Waghmare
+license: (ISC) 
+About to write to /home/labuser/Desktop/mernprojectbackend/node-projects/project8/package.json:
+
+{
+  "name": "project8",
+  "version": "1.0.0",
+  "description": "Project on Developing Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aishwarya Waghmare",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project8$ npm install node-fetch
+
+up to date, audited 7 packages in 617ms
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+labuser@ubuntu2204:~/Desktop/mernprojectbackend/node-projects/project8$ node index.js 
+[
+  {
+    id: 7,
+    email: 'michael.lawson@reqres.in',
+    first_name: 'Michael',
+    last_name: 'Lawson',
+    avatar: 'https://reqres.in/img/faces/7-image.jpg'
+  },
+  {
+    id: 8,
+    email: 'lindsay.ferguson@reqres.in',
+    first_name: 'Lindsay',
+    last_name: 'Ferguson',
+    avatar: 'https://reqres.in/img/faces/8-image.jpg'
+  },
+  {
+    id: 9,
+    email: 'tobias.funke@reqres.in',
+    first_name: 'Tobias',
+    last_name: 'Funke',
+    avatar: 'https://reqres.in/img/faces/9-image.jpg'
+  },
+  {
+    id: 10,
+    email: 'byron.fields@reqres.in',
+    first_name: 'Byron',
+    last_name: 'Fields',
+    avatar: 'https://reqres.in/img/faces/10-image.jpg'
+  },
+  {
+    id: 11,
+    email: 'george.edwards@reqres.in',
+    first_name: 'George',
+    last_name: 'Edwards',
+    avatar: 'https://reqres.in/img/faces/11-image.jpg'
+  },
+  {
+    id: 12,
+    email: 'rachel.howell@reqres.in',
+    first_name: 'Rachel',
+    last_name: 'Howell',
+    avatar: 'https://reqres.in/img/faces/12-image.jpg'
+  }
+]
