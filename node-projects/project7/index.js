@@ -11,7 +11,8 @@ server.on("error", () => console.log("Error while handling request"));
 
 // Send a JSON response on receiving on http request
 server.on("request", (req, res) => {
-    const {headers} = req;
+    console.log('inside the handler');
+    const { headers } = req;
     const userAgent = headers['user-agent'];
 
     res.setHeader("Content-Type", "application/json");
