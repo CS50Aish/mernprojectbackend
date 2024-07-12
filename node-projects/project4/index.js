@@ -1,6 +1,7 @@
 // Let us import the test and the assert module
 const test = require("test");
 const assert = require("assert");
+const { describe, it } = require("test");
 
 // Create test cases that exhibits various scenarios
 test('synchronous passing test', (t) => {
@@ -66,4 +67,21 @@ test('skip option', {skip: true}, (t) => {
 // Here the skip option is used and message is provided
 test('skip option with message', {skip: 'this is skipped'}, (t) => {
     // This code is never executed
-})
+});
+
+// Test case execution using describe and its functions
+describe('Test A with all possible tests', () => {
+    it('should work', () => {
+        assert.strictEqual(1, 1);
+    });
+
+    it('should be ok', () => {
+        assert.strictEqual(2, 2);
+    });
+
+    describe('a nested thing', () => {
+        it('should work', () => {
+            assert.strictEqual(3, 3);
+        });
+    });
+});
