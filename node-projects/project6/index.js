@@ -1,4 +1,4 @@
-function greetUser(username){
+const greetUser = function(username){
     console.log(">>> Hello", username, '\b, How are you?');
 }
 
